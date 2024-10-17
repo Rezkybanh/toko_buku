@@ -1,0 +1,27 @@
+/* responsive.css */
+@media (max-width: 768px) {
+    .navbar-right ul {
+      display: none; /* Hidden by default on mobile */
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      padding: 10px;
+      z-index: 10;
+    }
+  
+    .navbar-right ul.show {
+      display: flex; /* Show menu when class 'show' is added */
+    }
+  
+    .hamburger {
+      display: flex; /* Show hamburger icon on mobile */
+    }
+  
+    #typing-text {
+      font-size: 14px; /* Make the text smaller in mobile view */
+    }
+  }
+  
